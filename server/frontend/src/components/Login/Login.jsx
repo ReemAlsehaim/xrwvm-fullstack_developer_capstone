@@ -20,7 +20,7 @@ const Login = ({ onClose }) => {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            "userName": userName,
+            "username": userName,
             "password": password
         }),
     });
